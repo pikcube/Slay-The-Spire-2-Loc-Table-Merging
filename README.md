@@ -60,7 +60,7 @@ Here's the matching C# class that we deserialize these entries into.
 public record LocAliasInfo(string BasePath, List<string> AliasPaths);
 ```
 
-##  Step 2: Load our alias definitions into the game.
+##  Step 2: Load Your Alias Definitions Into the Game
 
 We are going to load this in using `System.Text.Json` (since that is what Slay the Spire 2 uses). The function to load them takes the mod id and uses it to derive the path of the json file.
 
@@ -141,7 +141,7 @@ We then register each LocTable for use later. The logic is a bit more complicate
         }
     }
 ```
-## Step 3: Patch the game to include our additional json files.
+## Step 3: Patch the Game to Include our Additional json Files
 
 Now let's actually patch the game to load these additional json files in
 
