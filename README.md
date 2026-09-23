@@ -21,7 +21,7 @@ I opted to load my aliases from a json file, which has the benefit of being easi
   {
     "BasePath": "cards",
     "AliasPaths": [
-      "cards.inventor",
+      "cards.inventor", //These files sit in the `eng` directory with the existing json files
       "cards.thief",
       "cards.warrior"
     ]
