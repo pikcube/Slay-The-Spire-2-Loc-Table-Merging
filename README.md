@@ -4,7 +4,7 @@ Slay the Spire 2 loads its text from a series of json files inside of `localizat
 
 These files are often referred to as `LocTables`, and they can get pretty long. `cards.json` is over 1200 lines long at the time of writing, and will likely get longer as the game progresses.
 
-When modders create their own cards, they create their own `cards.json` file that is appended to the original at runtime by the game's mod loader. Modders don't have to put all their card's text into `cards.json`, but they are going to need to override or patch much of the game's logic for the game to know where to look. While stuffing all the card strings into one json file is fine for single character mods, mods with teams working on multiple characters are going to find it difficult to keep track of where all the strings are. Additionally, having multiple people make edits to the same file increases the probability of merge conflicts.
+When modders create their own cards, they create their own `cards.json` file that is appended to the original at runtime by the game's mod loader. Modders don't have to put all their card's text into `cards.json`, but they are going to need to override or patch much of the game's logic if they want the game to look elsewhere. While stuffing all the card strings into one json file is fine for single character mods, mods with teams working on multiple characters are going to find it difficult to keep track of where all the strings are. Additionally, having multiple people make edits to the same file increases the probability of merge conflicts.
 
 # Loc Table Aliasing
 
