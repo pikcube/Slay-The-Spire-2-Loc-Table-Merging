@@ -12,7 +12,7 @@ When I came across this problem while working on Dice The Spire, I didn't want t
 
 I want to offer a quick explanation of how to set this up because it's not particularly complicated to set up and it massively decreases development headaches.
 
-## Step 1: Defining Your Aliases
+## Step 1: Define Your Aliases
 
 I opted to load my aliases from a json file, which has the benefit of being easier for an analyzer to find. The syntax here is incredibly simple, the BasePath defines which table we are going to merge into, and the Alias paths define which json files we want to append.
 
@@ -141,7 +141,7 @@ We then register each LocTable for use later. The logic is a bit more complicate
         }
     }
 ```
-## Step 3: Patch the Game to Include our Additional json Files
+## Step 3: Patch the Game to Include Your Additional json Files
 
 Now let's actually patch the game to load these additional json files in
 
