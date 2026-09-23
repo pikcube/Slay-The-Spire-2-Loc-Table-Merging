@@ -292,7 +292,7 @@ if (aliasFile is not null)
     }
 }
 
-......
+//.......//
 
 // And here we change the table name if it's a registered alias
 foreach (string s in locObj.Keys)
