@@ -10,7 +10,7 @@ When modders create their own cards, they create their own `cards.json` file tha
 
 When I came across this problem while working on Dice The Spire, I didn't want to deal with this, so I went about writing some code that let me merge a json file into a table different than its file name. The game already has a defined function that loads in modded text, no reason I can't append some extra code on the end to read in some extra json files according so some schema I developed.
 
-I want to offer a quick explanation of how to set this up because it's not particularly complicated to set up and it massively decreases development headaches.
+I want to offer a quick explanation of how to set this up because it's not particularly complicated and it massively decreases development headaches.
 
 ## Step 1: Define Your Aliases
 
